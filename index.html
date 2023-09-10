@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>게시판</title>
+        <link href="./style.css" rel="stylesheet" />
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>게시판</h1>
+            <form id="post-form">
+                <input
+                    type="text"
+                    id="post-title"
+                    placeholder="제목"
+                    required
+                />
+                <textarea
+                    id="post-content"
+                    placeholder="내용"
+                    required
+                ></textarea>
+                <button type="submit">게시</button>
+            </form>
+            <div id="post-list">
+                <!-- 게시글이 여기에 추가될 것입니다. -->
+            </div>
+        </div>
+    </body>
+</html>
